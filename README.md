@@ -119,8 +119,11 @@ Patient gender and age category are also collected at calibration time (they aff
 
 The dentist-side station receives data wirelessly and translates it into immediate visual feedback — no screen-watching required.
 
-![External PCB Design](External_PCB.png)
-![External Schematic](External_SCH.png)
+<p align="center">
+  <img src="External_SCH.png" width="45%"/>
+  &nbsp;
+  <img src="External_PCB.png" width="45%"/>
+</p>
 
 ### Dual-microcontroller architecture
 
