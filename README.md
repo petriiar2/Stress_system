@@ -86,6 +86,10 @@ The internal station is the patient-held device. It houses all sensors, the micr
   <img src="Internal_PCB.png" width="45%"/>
 </p>
 
+<p align="center">
+  <img src="Internal_proto.png" width="45%"/>
+</p>
+
 ### What it does
 
 - Reads all four sensors at **20 Hz** via a continuous polling loop
@@ -123,6 +127,10 @@ The dentist-side station receives data wirelessly and translates it into immedia
   <img src="External_SCH.png" width="45%"/>
   &nbsp;
   <img src="External_PCB.png" width="45%"/>
+</p>
+
+<p align="center">
+  <img src="External_proto.png" width="45%"/>
 </p>
 
 ### Dual-microcontroller architecture
