@@ -276,7 +276,7 @@ Used on both internal and external stations.
 
 ---
 
-## 8. PCB & Enclosure
+## 8. PCB 
 
 ### PCB Design
 
@@ -285,19 +285,7 @@ Schematics and PCB layouts were designed in **KiCad**. Key design decisions:
 - **JST connectors** used extensively throughout — sensors on the internal board and interface elements on the external board are all physically external to the PCB, so connectors allow clean cable management and easy swapping.
 - PCB fabrication within university facilities was not feasible in the project timeline, so components were soldered onto **prototyping (perfboard) boards** following the KiCad layout.
 
-KiCad project files are included in `/hardware/kicad/`.
-
-### Enclosure
-
-Designed in **Solid Edge CAD**. Simple box form with openings for:
-- Power cable
-- Sensor cable bundle (JST exit points)
-- Interface elements (buttons, display) on external box surface
-
-Due to 3D printer availability constraints during the holiday period, only the **internal station box** was printed for the submission deadline. The external station box remains as a CAD design.
-
-- PCBs are fixed inside using **gomme fix** (repositionable adhesive) — easy to remove for debugging.
-- CAD files are in `/hardware/enclosure/`.
+KiCad project files are included in `/internal/` or `/external/` .
 
 ---
 
@@ -315,4 +303,3 @@ Due to 3D printer availability constraints during the holiday period, only the *
 
 ---
 
-*For questions about the hardware design specifically, feel free to open an issue or reach out directly.*
