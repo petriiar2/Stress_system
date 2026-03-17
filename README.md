@@ -87,7 +87,7 @@ The internal station is the patient-held device. It houses all sensors, the micr
 </p>
 
 <p align="center">
-  <img src="Internal_proto.png" width="45%"/>
+  <img src="Internal_proto.jpeg" width="45%"/>
 </p>
 
 ### What it does
@@ -130,7 +130,7 @@ The dentist-side station receives data wirelessly and translates it into immedia
 </p>
 
 <p align="center">
-  <img src="External_proto.png" width="45%"/>
+  <img src="External_proto.jpeg" width="45%"/>
 </p>
 
 ### Dual-microcontroller architecture
