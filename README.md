@@ -80,8 +80,11 @@ The web/software layer (dashboard, statistical analysis, CSV export) was develop
 
 The internal station is the patient-held device. It houses all sensors, the microcontroller, and the BLE radio inside a custom 3D-printed enclosure designed for comfortable grip. Sensors that must contact the patient's skin (electrodes, moisture pad) exit the enclosure via JST connectors and are attached externally.
 
-![Internal PCB Design](Internal_PCB.png)
-![Internal Schematic](Internal_SCH.png)
+<p align="center">
+  <img src="Internal_SCH.png" width="45%"/>
+  &nbsp;
+  <img src="Internal_PCB.png" width="45%"/>
+</p>
 
 ### What it does
 
