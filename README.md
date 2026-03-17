@@ -323,3 +323,19 @@ KiCad project files are included in `/internal/` or `/external/` .
 
 ---
 
+## 10. Authorship & Contributions
+
+The hardware design presented in this repository — including sensor selection and wiring,
+PCB schematics, microcontroller configuration, BLE/UART communication
+architecture, and embedded firmware for data acquisition and LED control — was designed
+and implemented by **Iaroslav Petrishchev**.
+
+The following parts of the system are the work of other team members and are therefore
+not covered in this repository:
+
+- **Web application & real-time dashboard** (HTML/JS, Chart.js, Web Serial API) — *Naya Nasr & Yanzi Yu*
+- **Post-procedure statistical analysis & CSV export** — *Naya Nasr & Yanzi Yu*
+- **Clinical research, sensor rationale & validation study** — *Naya Nasr & Yanzi Yu*
+
+> Full project report available upon request.
+
