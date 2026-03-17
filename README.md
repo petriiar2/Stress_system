@@ -1,6 +1,5 @@
 
-# BM-Dentist — Physiological Monitoring System
-### Hardware Design & Sensor Integration
+# Physiological Monitoring System - Hardware Design & Sensor Integration
 
 > **PCC1 Project | KTH Royal Institute of Technology | MSc Medical Engineering | Stockholm, 2026**  
 > *This repository covers only the hardware design, sensor selection, wiring, and embedded firmware — the physical core of the system.*
