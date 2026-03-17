@@ -1,12 +1,10 @@
-# Stress_system
-Description of a device for measuring patient's stress and pain at a dentist's appointment
 
 # BM-Dentist — Physiological Monitoring System
 ### Hardware Design & Sensor Integration
 
 > **PCC1 Project | KTH Royal Institute of Technology | MSc Medical Engineering | Stockholm, 2026**  
-> Team: Naya Nasr, Iaroslav Petrishchev, Yanzi Yu, Lalith Rahul  
-> *This repository covers the hardware design, sensor selection, wiring, and embedded firmware — the physical core of the system.*
+> *This repository covers only the hardware design, sensor selection, wiring, and embedded firmware — the physical core of the system.*
+> *Other aspects of the project ( software component , website ) not considered in this repository*
 
 ---
 
@@ -23,7 +21,7 @@ Description of a device for measuring patient's stress and pain at a dentist's a
    - [PPG Sensor](#54-ppg-sensor--max30102)
 6. [Microcontrollers & Communication](#6-microcontrollers--communication)
 7. [Power Supply](#7-power-supply)
-8. [PCB & Enclosure](#8-pcb--enclosure)
+8. [PCB](#8-pcb--enclosure)
 9. [Current Limitations & Future Work](#9-current-limitations--future-work)
 
 ---
