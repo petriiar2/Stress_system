@@ -58,10 +58,10 @@ The system consists of three interconnected subsystems:
 └──────────────────────────────┘                        └──────────────┬───────────────────────┘
                                                                        │ USB Serial
                                                               ┌────────▼────────┐
-                                                              │   WEB APP        │
-                                                              │  (HTML/JS)       │
-                                                              │  Real-time plot  │
-                                                              │  Post-proc stats │
+                                                              │   WEB APP       │
+                                                              │  (HTML/JS)      │
+                                                              │  Real-time plot │
+                                                              │  Post-proc stats│
                                                               └─────────────────┘
 ```
 
@@ -79,6 +79,9 @@ The web/software layer (dashboard, statistical analysis, CSV export) was develop
 ## 3. Internal Station — Patient Side
 
 The internal station is the patient-held device. It houses all sensors, the microcontroller, and the BLE radio inside a custom 3D-printed enclosure designed for comfortable grip. Sensors that must contact the patient's skin (electrodes, moisture pad) exit the enclosure via JST connectors and are attached externally.
+
+![Internal PCB Design](Internal_PCB.png)
+![Internal Schematic](Internal_SCH.png)
 
 ### What it does
 
@@ -112,6 +115,9 @@ Patient gender and age category are also collected at calibration time (they aff
 ## 4. External Station — Dentist Side
 
 The dentist-side station receives data wirelessly and translates it into immediate visual feedback — no screen-watching required.
+
+![External PCB Design](External_PCB.png)
+![External Schematic](External_SCH.png)
 
 ### Dual-microcontroller architecture
 
