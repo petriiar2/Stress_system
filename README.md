@@ -23,6 +23,7 @@
 7. [Power Supply](#7-power-supply)
 8. [PCB](#8-pcb--enclosure)
 9. [Current Limitations & Future Work](#9-current-limitations--future-work)
+10. [Authorship & Contributions](#10-authorship--contributions)
 
 ---
 
